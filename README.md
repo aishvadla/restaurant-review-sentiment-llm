@@ -34,3 +34,7 @@ ollama pull llama3.2:3b
 uv sync
 jupyter notebook review_sentiment.ipynb
 ```
+
+## Next steps
+- Scale to ~1,000 Yelp reviews (map 1–2 stars to Negative, 3 to Neutral, 4–5 to Positive)
+- Compare llama3.2:3b, llama3.1:8b and qwen2.5:7b on accuracy, latency and JSON parse-failure rate
